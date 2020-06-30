@@ -7,8 +7,7 @@ const router = express.Router();
 //route Get api/tasks
 //desc GET all task
 //access public
-app.use('/api/tasks', taskRoute);
-router.get('', (req, res) => {
+router.get('/api/tasks', (req, res) => {
   try {
     res.send(tasklist);
   } catch (err) {
