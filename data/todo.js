@@ -1,19 +1,20 @@
 let todoslist = [
   {
     id: '1',
-    title: 'todo 1',
-    done: true,
+    Name: 'Sudhir',
+    Email: 'sudhir@gmail.com',
+    Password: 'Sid1234'
+
   },
+
   {
     id: '2',
-    title: 'todo 2',
-    done: false,
+    Name: 'Ram',
+    Email: 'ram@gmail.com',
+    Password: 'ram1234'
+
   },
-  {
-    id: '3',
-    title: 'todo 3',
-    done: true,
-  },
+  
 ];
 
 module.exports = todoslist;
